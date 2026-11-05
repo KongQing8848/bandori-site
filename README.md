@@ -1,5 +1,8 @@
 # 邦多利 BANDORI! · 少女乐队应援站
 
+**在线地址：** https://kongqing8848.github.io/bandori-site/  
+**仓库：** https://github.com/KongQing8848/bandori-site
+
 一个纯静态的《BanG Dream!》粉丝站：九支乐队、四十五位角色、三十首代表曲、企划时间线，还有一台「今日推し」抽卡机，以及一段用 Web Audio 实时合成的原创 BGM。
 
 没有构建步骤，没有第三方依赖，双击 `index.html`（或起一个静态服务器）就能看。
@@ -39,7 +42,7 @@ python3 -m http.server 8099
 
 ## 上线
 
-整个目录丢到 GitHub Pages、Cloudflare Pages、Vercel 或任意静态托管即可，不需要环境变量。
+已经用 GitHub Pages 从 `main` 分支根目录发布；改完文件 `git push` 后会自动重新构建。也可以整个目录丢到 Cloudflare Pages、Vercel 或任意静态托管。
 
 ## 版权
 
